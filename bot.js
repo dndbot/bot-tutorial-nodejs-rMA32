@@ -50,7 +50,7 @@ function respond() {
   } 
   else if(request.text && botRegexGian.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://goo.gl/images/aCGHVV");
+    postMessage("https://cdn.dopl3r.com/memes_files/it-is-thursday-my-bros-aYhUT.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexScrotes.test(request.text)) {
@@ -60,7 +60,7 @@ function respond() {
   } 
   else if(request.text && botRegexShaki.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://goo.gl/images/UyMsC3");
+    postMessage("https://media1.tenor.com/images/cfeb7a77e287d674d56d4706dcaeab1c/tenor.gif?itemid=5446149");
     this.res.end();
   } 
   else if(request.text && botRegexDL.test(request.text)) {
