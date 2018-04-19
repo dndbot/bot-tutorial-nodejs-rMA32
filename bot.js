@@ -11,7 +11,7 @@ function respond() {
       botRegexSiege = /^\/siege/;
       botRegexSlut = /^\/campaign/; botRegexMason = /^\/mason/;
       botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
-      botRegexGian = /^\/thursday/ botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/wednesday/;
+      botRegexGian = /^\/thursday/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/wednesday/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
