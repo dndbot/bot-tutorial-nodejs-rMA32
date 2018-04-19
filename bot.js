@@ -12,7 +12,7 @@ function respond() {
       botRegexSlut = /^\/campaign/; botRegexMason = /^\/senate/;
       botRegexProp = /^\/doit/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/thursday/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/wednesday/;
-      botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrap = /^\/trap/; botRegexTrapped = /^\/trapped/; botRegexTraphouse = /^\/traphouse/;
+      botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrap = /^\/trap$/; botRegexTrapped = /^\/trapped$/; botRegexTraphouse = /^\/traphouse$/;
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage(cool());
