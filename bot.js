@@ -12,15 +12,25 @@ function respond() {
       botRegexSlut = /^\/campaign/; botRegexMason = /^\/senate/;
       botRegexProp = /^\/doit/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexBrye = /^\/brye/;
       botRegexGian = /^\/thursday/; botRegexScrotes = /^\/scrotes/; botRegexShaki = /^\/wednesday/;
-      botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
+      botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrap = /^\/trap/; botRegexTrapped = /^\/trapped/; botRegexTraphouse = /^\/traphouse/;
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage(cool());
     this.res.end();
   }
-  else if(request.text && botRegexSlut.test(request.text)) {
+  else if(request.text && botRegexTrap.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.dndbeyond.com/campaigns/96368");
+    postMessage("https://media.giphy.com/media/lk0TFUdop2JTW/giphy.gif");
+    this.res.end();
+  }
+  else if(request.text && botRegexTrapped.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://www.youtube.com/watch?v=zFosUj6A22c&list=PLBAEFBBB81AFBC470");
+    this.res.end();
+  }
+  else if(request.text && botRegexTraphouse.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage("https://www.google.com/maps/@33.2075269,-87.5582536,3a,39.7y,258.75h,83.24t/data=!3m6!1e1!3m4!1syOPr4aqwe1g2f0XwKAdvZg!2e0!7i13312!8i6656");
     this.res.end();
   } 
   else if(request.text && botRegexProp.test(request.text)) {
